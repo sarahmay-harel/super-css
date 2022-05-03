@@ -1,0 +1,124 @@
+.shelf {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(142, 70, 19), sienna);
+    width: 400px;
+    height: 20px;
+    top: 200px;
+}
+
+.bracket-l {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(164, 83, 45), rgb(72, 36, 19));
+    width: 15px;
+    height: 20px;
+    top: 220px;
+    left: 40px;
+}
+
+.bracket-r {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(164, 83, 45), rgb(72, 36, 19));
+    width: 15px;
+    height: 20px;
+    top: 220px;
+    left: 360px;
+}
+.pot1 {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(128, 63, 3), rgb(213, 91, 26));
+    width: 60px;
+    height: 55px;
+    top: 145px;
+    left: 320px;
+}
+
+.pot1lid {
+    position: absolute;
+    background-color: rgb(213, 91, 26);
+    /* background-image: linear-gradient(to top, rgb(78, 39, 3), rgb(213, 91, 26)); */
+    width: 75px;
+    height: 15px;
+    top: 145px;
+    left: 313px;
+}
+
+.p1l1 {
+    position: absolute;
+    background-color: rgb(94, 129, 94);
+    width: 50px;
+    height: 90px;
+    top: 103px;
+    left: 326px;
+    border-radius: 70%;
+    z-index: -1;
+}
+
+/* .plant1-l1 {
+    position: absolute;
+    background-color: rgb(47, 119, 47);
+    width: 7px;
+    height: 150px;
+    top: 145px;
+    left: 330px;
+    border-radius: 87%;
+}
+.plant1-l2 {
+    position: absolute;
+    background-color: rgb(47, 119, 47);
+    width: 7px;
+    height: 150px;
+    top: 145px;
+    left: 355px;
+    border-radius: 87%;
+}
+.plant1-l3 {
+    position: absolute;
+    background-color: rgb(47, 119, 47);
+    width: 7px;
+    height: 150px;
+    top: 145px;
+    left: 375px;
+    border-radius: 87%;
+}
+
+.plant1-l4 {
+    position: absolute;
+    background-color: rgb(47, 119, 47);
+    width: 7px;
+    height: 80px;
+    top: 140px;
+    left: 365px;
+    border-radius: 87%;
+    transform: rotate(-4deg);
+}
+
+.plant1-l5 {
+    position: absolute;
+    background-color: rgb(47, 119, 47);
+    width: 7px;
+    height: 130px;
+    top: 140px;
+    left: 345px;
+    border-radius: 87%;
+    transform: rotate(-2deg);
+} */
+
+.pot2 {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(32, 24, 19), rgb(171, 86, 25));
+    width: 70px;
+    height: 40px;
+    top: 110px;
+    left: 225px;
+    border-radius: 50%;
+    border-top: 50px solid white;
+}
+
+.plant2-l1 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, green, rgb(75, 116, 13));
+    width: 6px;
+    height: 50px;
+    top: 110px;
+    left: 255px;
+}
