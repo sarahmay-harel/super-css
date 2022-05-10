@@ -25,7 +25,7 @@
 }
 .pot1 {
     position: absolute;
-    background-image: linear-gradient(to top, rgb(128, 63, 3), rgb(213, 91, 26));
+    background-image: linear-gradient(to left, rgb(183 90 4), rgb(213, 91, 26), rgb(183 90 4));
     width: 60px;
     height: 55px;
     top: 145px;
@@ -34,7 +34,7 @@
 
 .pot1lid {
     position: absolute;
-    background-color: rgb(213, 91, 26);
+    background-image: linear-gradient(to left, rgb(183 90 4), rgb(213, 91, 26), rgb(183 90 4));
     /* background-image: linear-gradient(to top, rgb(78, 39, 3), rgb(213, 91, 26)); */
     width: 75px;
     height: 15px;
@@ -105,20 +105,336 @@
 
 .pot2 {
     position: absolute;
-    background-image: linear-gradient(to left, rgb(32, 24, 19), rgb(171, 86, 25));
+    background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25));
     width: 70px;
     height: 40px;
     top: 110px;
-    left: 225px;
+    left: 135px;
     border-radius: 50%;
     border-top: 50px solid white;
+    z-index: -2;
 }
 
-.plant2-l1 {
+.plant2-stem {
     position: absolute;
     background-image: linear-gradient(to bottom, green, rgb(75, 116, 13));
     width: 6px;
-    height: 50px;
-    top: 110px;
-    left: 255px;
+    height: 100px;
+    top: 62px;
+    left: 167px;
 }
+
+.plant2-leaf-l {
+    position: absolute;
+    background-image: linear-gradient(to bottom, green, rgb(75, 116, 13));
+    width: 50px;
+    height: 25px;
+    top: 110px;
+    left: 128px;
+    border-radius: 150px 150px 0 0;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+
+.plant2-leaf-r {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgb(75, 116, 13), green);
+    width: 50px;
+    height: 25px;
+    top: 75px;
+    left: 162px;
+    border-radius: 0 0 150px 150px;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+
+
+.pot3 {
+    position: absolute;
+    /* background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25)); */
+    width: 50px;
+    height: 40px;
+    top: 150px;
+    left: 30px;
+    border-top: 50px solid rgb(210 105 57);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    z-index: -2;
+}
+
+.plant3-stem {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(139 168 95), green);
+    width: 6px;
+    height: 100px;
+    top: 50px;
+    left: 72px;
+}
+
+.plant3-leaf-l {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 20px;
+    height: 20px;
+    top: 48px;
+    left: 53px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-r {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 20px;
+    height: 20px;
+    top: 48px;
+    left: 77px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-l1 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 53px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-r1 {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 77px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-l2 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 20px;
+    height: 20px;
+    top: 92px;
+    left: 53px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-r2 {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 20px;
+    height: 20px;
+    top: 92px;
+    left: 77px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-l3 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 20px;
+    height: 20px;
+    top: 114px;
+    left: 53px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.plant3-leaf-r3{
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 20px;
+    height: 20px;
+    top: 114px;
+    left: 77px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+
+
+
+.pot4 {
+    position: absolute;
+    /* background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25)); */
+    width: 60px;
+    height: 70px;
+    top: 130px;
+    left: 235px;
+    background-image: linear-gradient(to left, darkgoldenrod, rgb(246, 187, 37), darkgoldenrod);
+    z-index: -2;
+}
+
+.plant4-stem {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(139 168 95), green);
+    width: 6px;
+    height: 90px;
+    top: 40px;
+    left: 262px;
+}
+
+.plant4-leaf-l {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 15px;
+    height: 15px;
+    top: 48px;
+    left: 243px;
+    border-radius: 0 50% 0 50%;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.plant4-leaf-r {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 15px;
+    height: 15px;
+    top: 48px;
+    left: 272px;
+    border-radius: 50% 0 50% 0;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+.plant4-leaf-l1 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 15px;
+    height: 15px;
+    top: 70px;
+    left: 243px;
+    border-radius: 0 50% 0 50%;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.plant4-leaf-r1 {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 15px;
+    height: 15px;
+    top: 70px;
+    left: 272px;
+    border-radius: 50% 0 50% 0;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+.plant4-leaf-l2 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 15px;
+    height: 15px;
+    top: 92px;
+    left: 243px;
+    border-radius: 0 50% 0 50%;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.plant4-leaf-r2 {
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 15px;
+    height: 15px;
+    top: 92px;
+    left: 272px;
+    border-radius: 50% 0 50% 0;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+.plant4-leaf-l3 {
+    position: absolute;
+    background-image: linear-gradient(to left, green, rgb(139 168 95));
+    width: 15px;
+    height: 15px;
+    top: 114px;
+    left: 243px;
+    border-radius: 0 50% 0 50%;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.plant4-leaf-r3{
+    position: absolute;
+    background-image: linear-gradient(to left, rgb(139 168 95), green);
+    width: 15px;
+    height: 15px;
+    top: 114px;
+    left: 272px;
+    border-radius: 50% 0 50% 0;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+
+
+
+
+
+/* peach mode
+
+
+.peach {
+    border-radius: 50%;
+    background-image: linear-gradient(to left, orange, pink);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    box-shadow: 2px 2px #bd9595;
+}
+
+.peachbun {
+    border-radius: 50%;
+    background-image: linear-gradient(to left, orange, pink);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 301px;
+    left: 220px;
+    box-shadow: 2px 2px #bd9595;
+}
+
+.peachleaf {
+    position: absolute;
+    top: 282px;
+    left: 250px;
+    background-color: green;
+    border-radius: 50%;
+    height: 25px;
+    width: 50px;
+    // border: 2px solid greenyellow;
+    // box-shadow: 2px 2px rgb(60 90 60);
+    z-index: -1;
+    transform: rotate(150deg);
+}
+
+.peachleaf2 {
+    position: absolute;
+    top: 282px;
+    left: 220px;
+    background-color: green;
+    border-radius: 50%;
+    height: 25px;
+    width: 50px;
+    // border: 2px solid greenyellow;
+    // box-shadow: 2px 2px rgb(60 90 60);
+    z-index: -1;
+    transform: rotate(250deg);
+}
+
+*/
