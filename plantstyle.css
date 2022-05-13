@@ -1,5 +1,7 @@
+
+
 .shelf {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to top, rgb(142, 70, 19), sienna);
     width: 400px;
     height: 20px;
@@ -7,7 +9,7 @@
 }
 
 .bracket-l {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to top, rgb(164, 83, 45), rgb(72, 36, 19));
     width: 15px;
     height: 20px;
@@ -16,7 +18,7 @@
 }
 
 .bracket-r {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to top, rgb(164, 83, 45), rgb(72, 36, 19));
     width: 15px;
     height: 20px;
@@ -24,7 +26,7 @@
     left: 360px;
 }
 .pot1 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(183 90 4), rgb(213, 91, 26), rgb(183 90 4));
     width: 60px;
     height: 55px;
@@ -33,7 +35,7 @@
 }
 
 .pot1lid {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(183 90 4), rgb(213, 91, 26), rgb(183 90 4));
     /* background-image: linear-gradient(to top, rgb(78, 39, 3), rgb(213, 91, 26)); */
     width: 75px;
@@ -42,19 +44,28 @@
     left: 313px;
 }
 
+.pot1lid2 {
+    position: fixed;
+    background-color: #9e4d06;
+    width: 60px;
+    height: 10px;
+    top: 160px;
+    left: 320px;
+}
+
 .p1l1 {
-    position: absolute;
-    background-color: rgb(94, 129, 94);
+    position: fixed;
+    background-image: linear-gradient(to left, #4d8636, rgb(131 181 131), #4d8636);
     width: 50px;
     height: 90px;
-    top: 103px;
+    top: 95px;
     left: 326px;
     border-radius: 70%;
     z-index: -1;
 }
 
 /* .plant1-l1 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(47, 119, 47);
     width: 7px;
     height: 150px;
@@ -63,7 +74,7 @@
     border-radius: 87%;
 }
 .plant1-l2 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(47, 119, 47);
     width: 7px;
     height: 150px;
@@ -72,7 +83,7 @@
     border-radius: 87%;
 }
 .plant1-l3 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(47, 119, 47);
     width: 7px;
     height: 150px;
@@ -82,7 +93,7 @@
 }
 
 .plant1-l4 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(47, 119, 47);
     width: 7px;
     height: 80px;
@@ -93,7 +104,7 @@
 }
 
 .plant1-l5 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(47, 119, 47);
     width: 7px;
     height: 130px;
@@ -104,7 +115,7 @@
 } */
 
 .pot2 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25));
     width: 70px;
     height: 40px;
@@ -116,7 +127,7 @@
 }
 
 .plant2-stem {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to bottom, green, rgb(75, 116, 13));
     width: 6px;
     height: 100px;
@@ -125,8 +136,8 @@
 }
 
 .plant2-leaf-l {
-    position: absolute;
-    background-image: linear-gradient(to bottom, green, rgb(75, 116, 13));
+    position: fixed;
+    background-color: green;
     width: 50px;
     height: 25px;
     top: 110px;
@@ -137,8 +148,8 @@
 }
 
 .plant2-leaf-r {
-    position: absolute;
-    background-image: linear-gradient(to bottom, rgb(75, 116, 13), green);
+    position: fixed;
+    background-color:  green;
     width: 50px;
     height: 25px;
     top: 75px;
@@ -150,7 +161,7 @@
 
 
 .pot3 {
-    position: absolute;
+    position: fixed;
     /* background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25)); */
     width: 50px;
     height: 40px;
@@ -162,8 +173,30 @@
     z-index: -2;
 }
 
+.pot3lid {
+    position: fixed;
+    width: 90px;
+    height: 20px;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(210 105 57);
+    z-index: 1;
+}
+
+.pot3lid2 {
+    position: fixed;
+    width: 65px;
+    height: 20px;
+    top: 170px;
+    left: 37px;
+    border-top: 10px solid #9f512d;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    z-index: 1;
+}
+
 .plant3-stem {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to top, rgb(139 168 95), green);
     width: 6px;
     height: 100px;
@@ -172,7 +205,7 @@
 }
 
 .plant3-leaf-l {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 20px;
     height: 20px;
@@ -183,7 +216,7 @@
 }
 
 .plant3-leaf-r {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 20px;
     height: 20px;
@@ -194,7 +227,7 @@
 }
 
 .plant3-leaf-l1 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 20px;
     height: 20px;
@@ -205,7 +238,7 @@
 }
 
 .plant3-leaf-r1 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 20px;
     height: 20px;
@@ -216,7 +249,7 @@
 }
 
 .plant3-leaf-l2 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 20px;
     height: 20px;
@@ -227,7 +260,7 @@
 }
 
 .plant3-leaf-r2 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 20px;
     height: 20px;
@@ -238,7 +271,7 @@
 }
 
 .plant3-leaf-l3 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 20px;
     height: 20px;
@@ -249,7 +282,7 @@
 }
 
 .plant3-leaf-r3{
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 20px;
     height: 20px;
@@ -264,7 +297,7 @@
 
 
 .pot4 {
-    position: absolute;
+    position: fixed;
     /* background-image: linear-gradient(to left, rgb(171, 86, 25), rgb(210, 105, 57), rgb(171, 86, 25)); */
     width: 60px;
     height: 70px;
@@ -275,7 +308,7 @@
 }
 
 .plant4-stem {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to top, rgb(139 168 95), green);
     width: 6px;
     height: 90px;
@@ -284,11 +317,11 @@
 }
 
 .plant4-leaf-l {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 15px;
     height: 15px;
-    top: 48px;
+    top: 38px;
     left: 243px;
     border-radius: 0 50% 0 50%;
     z-index: -1;
@@ -296,7 +329,7 @@
 }
 
 .plant4-leaf-r {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 15px;
     height: 15px;
@@ -308,11 +341,11 @@
 }
 
 .plant4-leaf-l1 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 15px;
     height: 15px;
-    top: 70px;
+    top: 60px;
     left: 243px;
     border-radius: 0 50% 0 50%;
     z-index: -1;
@@ -320,7 +353,7 @@
 }
 
 .plant4-leaf-r1 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 15px;
     height: 15px;
@@ -332,11 +365,11 @@
 }
 
 .plant4-leaf-l2 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 15px;
     height: 15px;
-    top: 92px;
+    top: 82px;
     left: 243px;
     border-radius: 0 50% 0 50%;
     z-index: -1;
@@ -344,7 +377,7 @@
 }
 
 .plant4-leaf-r2 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 15px;
     height: 15px;
@@ -356,11 +389,11 @@
 }
 
 .plant4-leaf-l3 {
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, green, rgb(139 168 95));
     width: 15px;
     height: 15px;
-    top: 114px;
+    top: 104px;
     left: 243px;
     border-radius: 0 50% 0 50%;
     z-index: -1;
@@ -368,7 +401,7 @@
 }
 
 .plant4-leaf-r3{
-    position: absolute;
+    position: fixed;
     background-image: linear-gradient(to left, rgb(139 168 95), green);
     width: 15px;
     height: 15px;
@@ -392,7 +425,7 @@
     background-image: linear-gradient(to left, orange, pink);
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     top: 300px;
     left: 200px;
     box-shadow: 2px 2px #bd9595;
@@ -403,14 +436,14 @@
     background-image: linear-gradient(to left, orange, pink);
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     top: 301px;
     left: 220px;
     box-shadow: 2px 2px #bd9595;
 }
 
 .peachleaf {
-    position: absolute;
+    position: fixed;
     top: 282px;
     left: 250px;
     background-color: green;
@@ -424,7 +457,7 @@
 }
 
 .peachleaf2 {
-    position: absolute;
+    position: fixed;
     top: 282px;
     left: 220px;
     background-color: green;
